@@ -7,7 +7,35 @@
     @vite('resources/css/app.css')
     <title>Document</title>
 </head>
-<body>
+<body class="">
+    <nav class="p-6 bg-laravel text-white md:text-xl text-lg flex justify-between mb-6">
+        <ul class="flex items-center">
+            <li>
+                <a href="/" class="p-3">Home</a>
+            </li>
+            <li>
+                <a href="/" class="p-3">Dashboard</a>
+            </li>
+            <li>
+                <a href="/" class="p-3">Post</a>
+            </li>
+        </ul>
+
+        <ul class="flex items-center">
+            <li>
+                <a href="/" class="p-3">Alex</a>
+            </li>
+            <li>
+                <a href="/" class="p-3">Login</a>
+            </li>
+            <li>
+                <a href="/" class="p-3">Register</a>
+            </li>
+            <li>
+                <a href="/" class="p-3">Logout</a>
+            </li>
+        </ul>
+    </nav>
     @yield('content')
 </body>
 </html>
