@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="flex justify-center">
-        <div class="w-8/12 bg-white text-white p-6 rounded-md">
+        <div class="w-8/12 bg-white p-6 rounded-md">
             <form action="{{ route('posts') }}" method="post">
                 @csrf
                 <div class="mb-4">
