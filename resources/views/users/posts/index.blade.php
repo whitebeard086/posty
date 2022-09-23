@@ -9,7 +9,7 @@
                 </h1>
                 <p>
                     Posted {{ $posts->count() }} {{ Str::plural('post', $posts->count()) }} 
-                    {{-- and received {{ $user->receivedLikes->count() }} likes --}}
+                    and received {{ $user->receivedLikes->count() }} likes
                 </p>
             </div>
 
